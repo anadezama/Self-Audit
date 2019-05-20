@@ -165,32 +165,89 @@ GSResponses[CustomerInformation_Documentation_Denom] + GSResponses[CustomerInfor
 
 2. Category_Subcategory_Denom
 
-In this formula you ask if the answer of the Question is N/A or it is blank then the points are 0, or else you put the according points from the column Questions in table Points.
+In this formula you ask if the answer of the Question is N/A or it is blank then the points are 0, or else you put the according points from the column Questions in table Points. It takes the points from the table depending on the QY or QN you insert.
 
 Category_Subcategory_Denom=
+
+
 // Denominator for Q#
+
     IF(GSResponses[Category_Subcategory_Q#] = "N/A" || ISBLANK(GSResponses[Category_Subcategory_Q#]),
         0, 
-        CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QN10"))
+        CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QY/N#"))
     ) 
+    
 (You add the formula for the number of questions in the subcategory)
 
 Example:
 
 CustomerInformation_Documentation_Denom = 
+
+
 // Denominator for Q1
+
     IF(GSResponses[CustomerInformation_Documentation_Q1] = "N/A" || ISBLANK(GSResponses[CustomerInformation_Documentation_Q1]),
         0, 
         CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QN10"))
     ) +
+      
 // Denominator for Q2
+
     IF(GSResponses[CustomerInformation_Documentation_Q2] = "N/A" || ISBLANK(GSResponses[CustomerInformation_Documentation_Q2]),
         0, 
         CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QN10"))
     )
 
-
 3. Category_Subcategory_Q#_Score
 
+This column basically looks for the response the FOM wrote on the form and depending on the answer they wrote down it goes to the "Points" table and gives the corresponding points. This calculation is made for each question in the Audit.
+
+Category_Subcategory_Q#_Score =
+
+lookupvalue(Scores[Points],Scores[Answer],GSResponses[Category_Subcategory_Q#],Scores[Question],"QY/N#")
+
+
+Example:
+
+CustomerInformation_Documentation_Q1_Scores =
+
+lookupvalue(Scores[Points],Scores[Answer],GSResponses[CustomerInformation_Documentation_Q1],Scores[Question],"QN10")
+
+
+4. Category_Blanks
+
+This column calculates the number of blank questions by category. There are four calculated columns with this formula since there are four categories.
+
+Example:
+
+CustomerInformation_Blanks = 
+
+//Documentation
+
+VAR   DQ1 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q1]),1,0) 
+VAR   DQ2 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q2]),1,0) 
+VAR   DQ3 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q3]),1,0) 
+VAR   DQ4 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q4]),1,0) 
+VAR   DQ5 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q5]),1,0) 
+VAR   DQ6 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q6]),1,0) 
+VAR   DQ7 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q7]),1,0) 
+VAR   DQ8 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q8]),1,0) 
+VAR   DQ9 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q9]),1,0) 
+VAR   DQ10 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q10]),1,0) 
+VAR   DQ11 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q11]),1,0) 
+VAR   DQ12 = IF(ISBLANK(GSResponses[CustomerInformation_Documentation_Q12]),1,0) 
+
+//Equipment Control
+
+VAR   EQ1 = IF(ISBLANK(GSResponses[CustomerInformation_EC_Q1]),1,0) 
+VAR   EQ2 = IF(ISBLANK(GSResponses[CustomerInformation_EC_Q2]),1,0) 
+VAR   EQ3 = IF(ISBLANK(GSResponses[CustomerInformation_EC_Q3]),1,0) 
+VAR   EQ4 = IF(ISBLANK(GSResponses[CustomerInformation_EC_Q4]),1,0) 
+VAR   EQ5 = IF(ISBLANK(GSResponses[CustomerInformation_EC_Q5]),1,0) 
+VAR   EQ6 = IF(ISBLANK(GSResponses[CustomerInformation_EC_Q6]),1,0) 
+
+RETURN
+
+DQ1+DQ2+DQ3+DQ4+DQ5+DQ6+DQ7+DQ8+DQ9+DQ10+DQ11+DQ12+EQ1+EQ2+EQ3+EQ4+EQ5+EQ6
 
 
