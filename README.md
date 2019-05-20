@@ -137,7 +137,16 @@ This table was created to be able to use the KPI Visualization in the reports se
 # How to calculate Points
 
 To calculate the points we created columns and measures, here is the difference between them. DIFFERENCE
-First we created calculated column for each question in the acdit naming it Category_SubCategory_Q#_Score (ex. CustomerInformation_Documentation_Q1_Score)
+
+Here are the calculated columns we created:
+1. Category_Denom (For each one of the 4 categories)
+2. Category_Subcategory_Denom (For each subcategory)
+3. Category_Subcategory_Q#_Score (For each question inside each category)
+4. Category_Blanks
+
+
+1. First we created calculated column for each question in the audit naming it Category_SubCategory_Q#_Score (ex. CustomerInformation_Documentation_Q1_Score).
+2. We created a calculated column called Categoty_Subcategory_Denom
 
 Num/Den
 
