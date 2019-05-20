@@ -29,7 +29,9 @@ PowerBI
 This is the Self-Audit Form that gets filled out by the FOMs(1). The images that are uploaded on the Form are automatically saved in the folder called “Self-Audit(File responses)” inside the google drive (2). The images get automatically erased every monday at 1pm with the script called DeleteOldFiles (3).
 
 (1) https://docs.google.com/a/sunholdings.net/forms/d/1m-N2uCmuza-nMP9X3PIZB8qMbnnpd9BxMiC8mz67CuU/edit?usp=forms_home&ths=true
+
 (2) https://drive.google.com/drive/u/2/folders/0BxQ3K2juRI2NfnVOWHB6SG1FcEkyeVhlUGs5bjRfT2ZCWURDZ096ZTZUa2FnMU1zaDBWVEU
+
 (3) https://script.google.com/u/2/home/projects/1gGI8fYGYa8lIixd66IehKsnfjRVIK-XO_GW0U16wtsqtE51i20u_XzIp
 
 ### 2. Google Forms Responses
@@ -70,11 +72,16 @@ The PowerBI is divided into three parts: model, data and reports.
 ![PowerBI-Sections](https://user-images.githubusercontent.com/49915213/58035169-d3289200-7aed-11e9-9194-aafa22b85694.PNG)
 
 
-### Model View/Relationship View  ![Model-PowerBI](https://user-images.githubusercontent.com/49915213/58035152-c310b280-7aed-11e9-8f7b-eef37cf68944.PNG)
+### Model View/Relationship View ![Relationships Icon-PowerBI](https://user-images.githubusercontent.com/49915213/58035195-e2a7db00-7aed-11e9-94db-262d05573621.PNG) 
 
 
 In the Model section we have all the connections/relationships to outside sources
-![Relationships Icon-PowerBI](https://user-images.githubusercontent.com/49915213/58035195-e2a7db00-7aed-11e9-94db-262d05573621.PNG)
+![Model-PowerBI](https://user-images.githubusercontent.com/49915213/58035152-c310b280-7aed-11e9-8f7b-eef37cf68944.PNG)
+
+#####Scores
+The Scores table is connected to the google sheet where we have established the possible points of each question. We also
+
+
 
 
  
