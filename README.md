@@ -68,12 +68,11 @@ https://docs.google.com/spreadsheets/d/1-nH52f3ZHGg2MdTU5Mrznw-VtgGRG9F_kuj0dVM-
 
 The PowerBI is divided into three parts: model, data and report.
 
-###Model/Relationship View
+###Model View/Relationship View
 
 In the Model section we have all the connections/relationships to outside sources
 
-
-
+ ![Report Icon - PowerBI](https://user-images.githubusercontent.com/49915213/58034650-ab84fa00-7aec-11e9-9040-39fc569f4e6b.PNG) ### Repor View / Visualizations
 
 
 
