@@ -26,9 +26,7 @@ PowerBI
 
 ### 1. Google Form
 
-This is the Self-Audit Form that gets filled out by the FOMs. 
-
-The images that are uploaded on the Form are automatically saved in the folder called “Self-Audit(File responses)” inside the google drive (2). The images get automatically erased every monday at 1pm with the script called DeleteOldFiles (3).
+This is the Self-Audit Form that gets filled out by the FOMs(1). The images that are uploaded on the Form are automatically saved in the folder called “Self-Audit(File responses)” inside the google drive (2). The images get automatically erased every monday at 1pm with the script called DeleteOldFiles (3).
 
 (1) https://docs.google.com/a/sunholdings.net/forms/d/1m-N2uCmuza-nMP9X3PIZB8qMbnnpd9BxMiC8mz67CuU/edit?usp=forms_home&ths=true
 (2) https://drive.google.com/drive/u/2/folders/0BxQ3K2juRI2NfnVOWHB6SG1FcEkyeVhlUGs5bjRfT2ZCWURDZ096ZTZUa2FnMU1zaDBWVEU
@@ -45,9 +43,8 @@ https://docs.google.com/spreadsheets/d/1ZQH0ohoGL4ipzDssMKqES6Sr1j1c5nLW-IQ6-oyx
 ### 3. PowerBI
 
 
-The PowerBI calculates the final grade of each Self-Audit  submitted. It also analyzes the information and gives insights.
+The PowerBI calculates the final grade of each Self-Audit  submitted. It also analyzes the information and gives insights. The details of the calculation process is explained below on the **PowerBI** section.
 
-The process to calculate the final grade is the following:
 
 
 ### 4. Template
@@ -65,6 +62,9 @@ Inside this table you can find the points for every type of question in the form
 
 https://docs.google.com/spreadsheets/d/1-nH52f3ZHGg2MdTU5Mrznw-VtgGRG9F_kuj0dVM-4jY/edit#gid=0
 
+
+
+##PowerBI
 
 
 
