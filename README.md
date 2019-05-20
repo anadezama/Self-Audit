@@ -119,10 +119,9 @@ This table is connected with the SQL Table named DimStore, it helps us connect t
 This table is connected with the SQL Table named DimDate, it helps us give a cronological order to the visualizations in the reports section.
 
 ##### KPI
-This table was created to be able to use the KPI Visualization in the reports section. We put .8 as the minimum value in the visualization created. The other rows are measures created so that the following visualizations don't show an error (1). This will be explained on detail in the "Visualizations" section.
+This table was created to be able to use the KPI Visualization in the reports section. We put .8 as the goal in the visualization created. The other rows are measures created so that the following visualizations don't show an error (1). This will be explained on detail in the "Visualizations" section.
 
 (1) ![KPIs](https://user-images.githubusercontent.com/49915213/58045451-27407000-7b08-11e9-982a-d25a97015bb5.PNG)
-
 
 
 
@@ -135,7 +134,12 @@ This table was created to be able to use the KPI Visualization in the reports se
 
 
 
+# How to calculate Points
 
+To calculate the points we created columns and measures, here is the difference between them. DIFFERENCE
+First we created calculated column for each question in the acdit naming it Category_SubCategory_Q#_Score (ex. CustomerInformation_Documentation_Q1_Score)
+
+Num/Den
 
 
 
