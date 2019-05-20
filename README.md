@@ -12,12 +12,12 @@ PowerBI
 ## Self-Audit Sources
 
 1. Google Form
-- Google Drive → Self - Audit (File responses) 
-- Google Script → DeleteOldFiles
+   - Google Drive → Self - Audit (File responses) 
+   - Google Script → DeleteOldFiles
 2. Google Form Responses
 3. PowerBI
 4. Template
-- Google Drive → Form Publisher Output’s Folder
+   - Google Drive → Form Publisher Output’s Folder
 5. Points table 
 
 (reports@gpmobile.net is the owner of all sources)
@@ -78,11 +78,21 @@ The PowerBI is divided into three parts: model, data and reports.
 In the Model section we have all the connections/relationships to outside sources
 ![Model-PowerBI](https://user-images.githubusercontent.com/49915213/58035152-c310b280-7aed-11e9-8f7b-eef37cf68944.PNG)
 
-#####Scores
-The Scores table is connected to the google sheet where we have established the possible points of each question. We also
+##### Scores
+What it is - The Scores table is connected to the google sheet where we have established the possible points of each question. The calculators image means that it is a measure, we will explain in detail the use of the measures in the "Points Exlained" section.
+Example - 
 
+##### GSresponses
+In this table we can find the responses of each google form, it is connected to the Google Sheet GSResponses. If you want to add a question you have to follow the instructions in the coresponding section.
 
+##### DimStore
+This table is connected with the SQL Table named DimStore, it helps us connect the SAP store with its' corresponding FOM inside the visualizations. The administrator is Michelle Ocampo.
 
+##### DimDate
+This table is connected with the SQL Table named DimDate, it helps us give a cronological order to the visualizations in the reports section.
+
+##### KPI
+This table was created to be able to use the KPI Visualization in the reports section. We put .8 as the minimum value in the visualization created. The other rows are measures created so that the following visualizations don't show an error. This will be explained on detail in the "Visualizations" section.
 
  
  ### Report View / Visualizations  ![Report Icon - PowerBI](https://user-images.githubusercontent.com/49915213/58034650-ab84fa00-7aec-11e9-9040-39fc569f4e6b.PNG)
