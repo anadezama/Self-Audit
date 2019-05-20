@@ -79,8 +79,35 @@ In the Model section we have all the connections/relationships to outside source
 ![Model-PowerBI](https://user-images.githubusercontent.com/49915213/58035152-c310b280-7aed-11e9-8f7b-eef37cf68944.PNG)
 
 ##### Scores
-What it is - The Scores table is connected to the google sheet where we have established the possible points of each question. The calculators image means that it is a measure, we will explain in detail the use of the measures in the "Points Exlained" section.
-Example - 
+The Scores table is connected to the google sheet where we have established the possible points of each question. If new questions are added with a different type of grading that can be added in the google sheets with the corresponding year when the changes were made. The calculators image means that it is a measure, we will explain in detail the use of the measures in the "Points Exlained" section.
+
+Below is an example of how the scores table was built. QY means that the correct answer of the question is Yes, QN means that the correct answer is No. the 1 at the end of QY1 means the points of the question. The questions named QFR, QSKU and QV are questions that the anser is not Yes,No or N/A the answer is a value so they are graded differently
+
+Question | Answer | Points
+--- | --- | ---
+QY1 | Yes | 1
+QY1 | No | 0
+QY1 | N/A | 0
+
+Question | Answer | Points
+--- | --- | ---
+QN10 | Yes | 0
+QN10 | No | 10
+QN10 | N/A | 0
+
+The questions named QFR, QSKU and QV are questions that the anser is not Yes,No or N/A the answer is a value so they are graded differently.
+
+The options of this questions are the ones on "Answer" section and depending on the option they choose, depends on the number of points they receive. The same thing happens with QV and QFR.
+
+Question | Answer | Points
+--- | --- | ---
+QSKU | 0 | 10
+QSKU | 1 | 8
+QSKU | 2 | 6
+QSKU | 3 | 4
+QSKU | 4 | 2
+QSKU | 5+ | 0
+
 
 ##### GSresponses
 In this table we can find the responses of each google form, it is connected to the Google Sheet GSResponses. If you want to add a question you have to follow the instructions in the coresponding section.
@@ -92,7 +119,12 @@ This table is connected with the SQL Table named DimStore, it helps us connect t
 This table is connected with the SQL Table named DimDate, it helps us give a cronological order to the visualizations in the reports section.
 
 ##### KPI
-This table was created to be able to use the KPI Visualization in the reports section. We put .8 as the minimum value in the visualization created. The other rows are measures created so that the following visualizations don't show an error. This will be explained on detail in the "Visualizations" section.
+This table was created to be able to use the KPI Visualization in the reports section. We put .8 as the minimum value in the visualization created. The other rows are measures created so that the following visualizations don't show an error (1). This will be explained on detail in the "Visualizations" section.
+
+(1) ![KPIs](https://user-images.githubusercontent.com/49915213/58045451-27407000-7b08-11e9-982a-d25a97015bb5.PNG)
+
+
+
 
  
  ### Report View / Visualizations  ![Report Icon - PowerBI](https://user-images.githubusercontent.com/49915213/58034650-ab84fa00-7aec-11e9-9040-39fc569f4e6b.PNG)
