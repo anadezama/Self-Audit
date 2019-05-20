@@ -134,26 +134,63 @@ This table was created to be able to use the KPI Visualization in the reports se
 
 
 
-# How to calculate Points
+# Calculated Columns & Measures (How to calculate Points)
+
+Num/Den
 
 To calculate the points we created columns and measures, here is the difference between them. DIFFERENCE
+
 
 Here are the calculated columns we created:
 1. Category_Denom (For each one of the 4 categories)
 2. Category_Subcategory_Denom (For each subcategory)
 3. Category_Subcategory_Q#_Score (For each question inside each category)
 4. Category_Blanks
+5. Complete/Incomplete
+6. 6 months
+
+Formula explanation of each column:
+
+1. Category_Denom
+
+Category_Denom =
+GSResponses[Category_Subcategory1_Denom] + GSResponses[Category_Subcategory2_Denom]
+
+(You need to add all the existent categories inside the category)
+
+Example:
+
+CustomerInformation_Denom = 
+GSResponses[CustomerInformation_Documentation_Denom] + GSResponses[CustomerInformation_EC_Denom]
+
+2. Category_Subcategory_Denom
+
+In this formula you ask if the answer of the Question is N/A or it is blank then the points are 0, or else you put the according points from the column Questions in table Points.
+
+Category_Subcategory_Denom=
+// Denominator for Q#
+    IF(GSResponses[Category_Subcategory_Q#] = "N/A" || ISBLANK(GSResponses[Category_Subcategory_Q#]),
+        0, 
+        CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QN10"))
+    ) 
+(You add the formula for the number of questions in the subcategory)
+
+Example:
+
+CustomerInformation_Documentation_Denom = 
+// Denominator for Q1
+    IF(GSResponses[CustomerInformation_Documentation_Q1] = "N/A" || ISBLANK(GSResponses[CustomerInformation_Documentation_Q1]),
+        0, 
+        CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QN10"))
+    ) +
+// Denominator for Q2
+    IF(GSResponses[CustomerInformation_Documentation_Q2] = "N/A" || ISBLANK(GSResponses[CustomerInformation_Documentation_Q2]),
+        0, 
+        CALCULATE(MAX(Scores[Points]),FILTER(Scores, Scores[Question] =  "QN10"))
+    )
 
 
-1. First we created calculated column for each question in the audit naming it Category_SubCategory_Q#_Score (ex. CustomerInformation_Documentation_Q1_Score).
-2. We created a calculated column called Categoty_Subcategory_Denom
-
-Num/Den
-
-
-
-
-
+3. Category_Subcategory_Q#_Score
 
 
 
