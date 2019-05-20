@@ -298,8 +298,8 @@ Measures created inside Scores table:
 3. Category_Den
 4. Category_Subcategory
 5. Final Score
-6. Final_Den
-7. Final_Num
+6. Final_Num
+7. Final_Den
 
 Explanation of each measure
 
@@ -472,6 +472,7 @@ Denominator = SUM(GSResponses[CustomerInformation_Documentation_Denom])
 
 
 RETURN
+
     Numerator / Denominator
     
     
