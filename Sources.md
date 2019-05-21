@@ -1,4 +1,4 @@
-## Self-Audit Sources
+## Self-Audit Components
 
 1. Google Form
    - Google Drive → Self - Audit (File responses) 
@@ -6,7 +6,7 @@
 2. Google Form Responses
 3. PowerBI
 4. Template
-   - Google Drive → Form Publisher Output’s Folder
+   - Google Drive → Form Publisher Output’s Fol
 5. Points Table 
 
 (reports@gpmobile.net is the owner of all sources)
