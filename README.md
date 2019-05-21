@@ -1,18 +1,21 @@
 # Self-Audit Documentation
 
-Paragraph explaining process and image
+
+![DiagramaSelfAuditGeneral](https://user-images.githubusercontent.com/49915213/58107109-d3d52d00-7bae-11e9-88f6-314dcbf345d7.PNG)
 
 
 
 
-[Sources](/Sources.md)
+## INDEX
 
-[PowerBI](/PowerBI.md)
+* [Sources](/Sources.md)
 
-[Calculated Columns and Measures](/Calculated%20Columns%20and%20Measures.md)
+* [PowerBI](/PowerBI.md)
 
-Change a question in Audit
+* [Calculated Columns and Measures](/Calculated%20Columns%20and%20Measures.md)
 
-Form Publisher
+* Change a question in Audit
 
-Google Form Instructions
+* Form Publisher
+
+* Google Form Instructions
