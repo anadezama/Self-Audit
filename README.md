@@ -8,7 +8,7 @@
 
 ## INDEX
 
-* [Sources](/Sources.md)
+* [Components](/Components.md)
 
 * [PowerBI](/PowerBI.md)
 
