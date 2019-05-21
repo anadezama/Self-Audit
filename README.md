@@ -6,7 +6,7 @@ Paragraph explaining process and image
 
 [PowerBI](/PowerBI.md)
 
-[Calculated Columns and Measures](/Calculated Columns and Measures.md)
+[Calculated Columns and Measures](/Calculated%20Columns%20and%20Measures.md)
 
 Change a question in Audit
 
