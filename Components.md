@@ -35,7 +35,7 @@ The PowerBI calculates the final grade of each Self-Audit submitted. It also ana
 
 ### 4. Template
 
-This Google Sheet is the [template](https://docs.google.com/spreadsheets/d/1gQK_dDIeZ1Z_eRhKFbk8r1Si3okPYFzCQvTEWvB5kzc/edit#gid=0) that gets filled out with the Self-Audit form responses and is automatically sent to the respondent. 
+This Google Sheet is the [template](https://docs.google.com/spreadsheets/d/1gQK_dDIeZ1Z_eRhKFbk8r1Si3okPYFzCQvTEWvB5kzc/edit#gid=0) that gets filled out with the Self-Audit form responses and is automatically sent to the respondent. Inside this [folder](https://drive.google.com/drive/u/2/folders/1qnvGT02BzwtajvY8zGM2tZFmyaOoo0Qp) all the PDFs get saved.
 
 
 
