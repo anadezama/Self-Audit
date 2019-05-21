@@ -2,7 +2,7 @@
 
 Num/Den
 
-To calculate the points we created columns and measures, here is the difference between them. DIFFERENCE
+In order to calculate the points we created columns and measures, [here is the difference between them.](Power-BI/DAX/CalculatedColumns and Measures.md)
 
 
 ## Calculated Columns:
