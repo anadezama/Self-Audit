@@ -16,6 +16,6 @@
 
 * [Change\Add Question](Change%5CAdd%20Question.md)
 
-* Form Publisher
+* [Form Publisher](FormPublisher.md)
 
 * Google Form Instructions
