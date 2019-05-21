@@ -7,7 +7,7 @@
 3. PowerBI
 4. Template
    - Google Drive → Form Publisher Output’s Folder
-5. Points table 
+5. Points Table 
 
 (reports@gpmobile.net is the owner of all sources)
 
