@@ -4,15 +4,15 @@ Paragraph explaining process and image
 
 [Sources](/Sources.md)
 
+[PowerBI](/PowerBI.md)
+
+[Calculated Columns and Measures](/Calculated Columns and Measures.md)
+
 Change a question in Audit
 
 Form Publisher
 
 Google Form Instructions
-
-[PowerBI](/PowerBI.md)
-
-
 
 # Calculated Columns & Measures (How to calculate Points)
 
