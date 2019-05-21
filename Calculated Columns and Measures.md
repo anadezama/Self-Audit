@@ -1,5 +1,5 @@
 # Calculated Columns & Measures (How to calculate Points)
-
+HII
 Num/Den
 
 In order to calculate the points we created columns and measures, [here is the difference between them.](https://github.com/gpinterns/Power-BI/blob/master/DAX/CalculatedColumns%20and%20Measures.md)
