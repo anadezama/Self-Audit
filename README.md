@@ -156,14 +156,18 @@ This visualization is to see the average grade by section and the average of the
 5.
 ![Visualization-ColumnGraphsCategory](https://user-images.githubusercontent.com/49915213/58102055-4ab9f800-7ba6-11e9-8c42-a86a9f5e3f0d.PNG)![Visualization-ColumnGraphsCategory right](https://user-images.githubusercontent.com/49915213/58102059-4c83bb80-7ba6-11e9-8f1e-d6e0ca2a5ee3.PNG)
 
-This visualization is to see which Subcategory has the highest and lowest grade. On the Value section we can 
+This visualization is to see which Subcategory has the highest and lowest grade. On the Value section we can find the Measure created for each subcategory insede the Scores table.
 
+6.
+![Visualization-Table](https://user-images.githubusercontent.com/49915213/58102515-011ddd00-7ba7-11e9-988b-1fa03aad85aa.PNG)![Visualization-Table right](https://user-images.githubusercontent.com/49915213/58102521-02e7a080-7ba7-11e9-96a8-6378ac86c5e5.PNG)
 
+This visualization was created to see the grade of each category and subcategory of every Audit responded. We can see that in "Values" section are all the Measures of each category and subcategory.
 
 
 ### Data View  ![Data - PowerBI](https://user-images.githubusercontent.com/49915213/58034999-72995500-7aed-11e9-8b4e-44a9e00e680e.PNG)
 
 Inside this section you can see the columns and measures that are inside each source we previosuly mentioned.
+![DataView](https://user-images.githubusercontent.com/49915213/58102809-843f3300-7ba7-11e9-887a-c1e6faf93ab2.PNG)
 
 
 # Calculated Columns & Measures (How to calculate Points)
