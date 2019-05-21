@@ -14,7 +14,7 @@
 
 * [Calculated Columns and Measures](/Calculated%20Columns%20and%20Measures.md)
 
-* Change a question in Audit
+* [Change\Add Question](Change%5CAdd%20Question.md)
 
 * Form Publisher
 
