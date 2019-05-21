@@ -1,7 +1,8 @@
 # Self-Audit Documentation
 
 
-![DiagramaSelfAuditGeneral](https://user-images.githubusercontent.com/49915213/58107109-d3d52d00-7bae-11e9-88f6-314dcbf345d7.PNG)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/49915213/58134189-9e026980-7beb-11e9-991d-5ce370651b68.gif)
+
 
 
 
