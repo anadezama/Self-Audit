@@ -11,7 +11,7 @@
 
 (reports@gpmobile.net is the owner of all sources)
 
-
+[![SelfAuditComponents](https://user-images.githubusercontent.com/49915213/58131051-406a1f00-7be3-11e9-9d80-b97ecdfd332b.PNG)](/PowerBI.md)
 
 ### 1. Google Form
 
