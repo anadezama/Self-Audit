@@ -15,7 +15,9 @@
 
 ### 1. Google Form
 
-This is the [Self-Audit Form](https://docs.google.com/a/sunholdings.net/forms/d/1m-N2uCmuza-nMP9X3PIZB8qMbnnpd9BxMiC8mz67CuU/edit?usp=forms_home&ths=true) that gets filled out by the FOMs. The images that are uploaded on the Form are automatically saved in the folder called [“Self-Audit(File Responses)”](https://drive.google.com/drive/u/2/folders/0BxQ3K2juRI2NfnVOWHB6SG1FcEkyeVhlUGs5bjRfT2ZCWURDZ096ZTZUa2FnMU1zaDBWVEU) inside the Google Drive. The images get automatically erased every monday at 1pm with the script called [DeleteOldFiles](https://script.google.com/u/2/home/projects/1gGI8fYGYa8lIixd66IehKsnfjRVIK-XO_GW0U16wtsqtE51i20u_XzIp).
+This is the [Self-Audit Form](https://docs.google.com/a/sunholdings.net/forms/d/1m-N2uCmuza-nMP9X3PIZB8qMbnnpd9BxMiC8mz67CuU/edit?usp=forms_home&ths=true) that gets filled out by the FOMs. 
+The images that are uploaded on the Form are automatically saved in the folder called [“Self-Audit(File Responses)”](https://drive.google.com/drive/u/2/folders/0BxQ3K2juRI2NfnVOWHB6SG1FcEkyeVhlUGs5bjRfT2ZCWURDZ096ZTZUa2FnMU1zaDBWVEU) inside the Google Drive. 
+The images get automatically erased every monday at 1pm with the script called [DeleteOldFiles](https://script.google.com/u/2/home/projects/1gGI8fYGYa8lIixd66IehKsnfjRVIK-XO_GW0U16wtsqtE51i20u_XzIp).
 
 
 ### 2. Google Forms Responses
