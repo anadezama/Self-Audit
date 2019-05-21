@@ -183,7 +183,7 @@ CustomerFO =
 
 **2. Category_Num**
 
-This formula calculates the Numerator of a specific category. We add the Calculated Column (which basically are the points the FOM gets by his responses) of question in a specific category and that is the Numerator.
+This formula calculates the Numerator of a specific category. We add the Calculated Column (which basically are the points the FOM gets by his responses) of question in a specific category and that is the Numerator. This formula adds all the measures of the specific Category (If it is Customer Information it will add the following .Measures CustomerInformation_Documentation and CustomerInformation_Equipment Control)
 
 Category_Num = 
 
