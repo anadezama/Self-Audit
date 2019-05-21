@@ -12,7 +12,7 @@
 (reports@gpmobile.net is the owner of all sources)
 
 <!-- + Power BI Icon + -->
-[![PowerBIIcon](![ezgif com-gif-maker](https://user-images.githubusercontent.com/49915213/58133244-07cd4400-7be9-11e9-958c-9daa01708413.gif)](/PowerBI.md) <!-- + Drive Components + -->  [![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/49915213/58133656-f89ac600-7be9-11e9-808d-16b2b2fa5e3e.gif)](https://drive.google.com/drive/u/2/folders/0BxQ3K2juRI2NfnVOWHB6SG1FcEkyeVhlUGs5bjRfT2ZCWURDZ096ZTZUa2FnMU1zaDBWVEU)
+[![ezgif com-gif-maker](https://user-images.githubusercontent.com/49915213/58133244-07cd4400-7be9-11e9-958c-9daa01708413.gif)](/PowerBI.md) <!-- + Drive Components + -->  [![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/49915213/58133656-f89ac600-7be9-11e9-808d-16b2b2fa5e3e.gif)](https://drive.google.com/drive/u/2/folders/0BxQ3K2juRI2NfnVOWHB6SG1FcEkyeVhlUGs5bjRfT2ZCWURDZ096ZTZUa2FnMU1zaDBWVEU)
 
 ### 1. Google Form
 
