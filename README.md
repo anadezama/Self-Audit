@@ -2,10 +2,14 @@
 
 Paragraph explaining process and image
 
-Self-Audit Sources
+[Sources](docs/Sources.md)
+
 Change a question in Audit
+
 Form Publisher
+
 Google Form Instructions
+
 PowerBI 
 
 
