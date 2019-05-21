@@ -26,3 +26,20 @@ To add a questions you must follow these steps:
  CustomerInformation_Documentation_Q12_Scores = 
   
  lookupvalue(Scores[Points],Scores[Answer],GSResponses[CustomerInformation_Documentation_Q12],Scores[Question],"QY10")
+
+  
+  5. PowerBI - Add the following formula to the corresponding Calculated column called Category_SubCategory_Denom
+  
+  
+  
+  6. PowerBI - Add the following formula to the corresponding Measure called Category_SubCategory
+  
+  
+  
+  7. PowerBI - Add the following formula to the corresponding Measure called Category_Num
+  
+  
+  
+  
+  
+  
