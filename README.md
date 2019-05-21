@@ -8,6 +8,8 @@
 
 ## INDEX
 
+* [General Process]
+
 * [Components](/Components.md)
 
 * [PowerBI](/PowerBI.md)
