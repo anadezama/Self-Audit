@@ -5,6 +5,7 @@
   2. Modify the question in the [Self-Audit Google Form](https://docs.google.com/forms/d/1m-N2uCmuza-nMP9X3PIZB8qMbnnpd9BxMiC8mz67CuU/edit)
   3. 
 
+
 **To ADD a questions you must follow these steps:**
   1. Add the question in the [Self-Audit Google Form](https://docs.google.com/forms/d/1m-N2uCmuza-nMP9X3PIZB8qMbnnpd9BxMiC8mz67CuU/edit), also add a comment and image option with a new number of question.
   2. Modify the [GP Mobile Self-Audit Template](https://docs.google.com/spreadsheets/d/1gQK_dDIeZ1Z_eRhKFbk8r1Si3okPYFzCQvTEWvB5kzc/edit#gid=0), give the question the same format the other questions have as the image below.
