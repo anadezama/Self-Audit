@@ -1,15 +1,9 @@
 # Self-Audit Documentation
 
 
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/49915213/58134189-9e026980-7beb-11e9-991d-5ce370651b68.gif)
-
-
-
-
-
 ## INDEX
 
-* [General Process]
+* [General Process](/GeneralProcess.md)
 
 * [Components](/Components.md)
 
